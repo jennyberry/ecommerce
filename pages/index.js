@@ -22,6 +22,7 @@ const Home = ({ products, bannerData }) => {
   );
 };
 
+//fetching all product data from Sanity
 export const getServerSideProps = async () => {
   const query = '*[_type == "product"]';
   const products = await client.fetch(query);
