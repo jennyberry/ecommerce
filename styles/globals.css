@@ -75,8 +75,8 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: gray;
-  font-size: 18px;
+  color: #6d1800;
+  font-size: 20px;
 
 }
 .cart-icon{
@@ -109,7 +109,7 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
 }
 .product-card{
@@ -117,16 +117,17 @@ width: 100%;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
  color: #324d67;
-
+padding: 0px 30px;
 }
 .product-card:hover{
   transform: scale(1.1,1.1)
 }
 .product-image{
   border-radius: 15px;
- background-color: #ebebeb;
+ background-color: #fafafa;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+  /* border: 3px solid #A497F2; */
 }
 
 .product-name{
@@ -140,7 +141,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #F3F2F8;
   border-radius: 15px;
   position: relative;
   height: 600px;
@@ -154,7 +155,7 @@ width: 100%;
 .hero-banner-container button{
    border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
+  background-color: #9536F4;
   color: white;
   border: none;
   margin-top: 40px;
@@ -173,13 +174,15 @@ width: 100%;
   font-size: 10em;
   margin-left: -20px;
   text-transform: uppercase;
+  text-shadow: 5px 5px 4px #A497F2,
+  3px 3px 10px #A497F2;
 }
 .hero-banner-image{
   position: absolute;
-  top: 6%;
-  right:20%;
+  top: 0%;
+  right:0%;
   width: auto;
-  height: 450px;
+  height: 600px;
 }
 
 
@@ -222,12 +225,12 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #F3F2F8;
   border-radius: 15px;
   position: relative;
   height: 400px;
   line-height: 1;
-  color: white;
+  color: #A497F2;
   width: 100%;
   margin-top: 120px;
 }
@@ -238,8 +241,8 @@ text-align: end;
 .banner-desc button{
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: white;
-  color: red;
+  background-color: #9536F4;
+  color: white;
   border: none;
   margin-top: 40px;
   font-size: 18px;
@@ -250,16 +253,21 @@ text-align: end;
   font-weight: 900;
   font-size: 80px;
   margin-left: 25px;
+  color: white;
+  text-shadow: 5px 5px 4px #A497F2,
+  3px 3px 10px #A497F2;
 }
 .banner-desc .left p{
   margin:18px;
+  color: black;
+  font-weight: 700;
 }
 .footer-banner-image{
   position: absolute;
   /* top: -35%;
   left: 8%; */
   top: -10%;
-  left: 38%;
+  left: 30%;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -438,7 +446,7 @@ padding: 30px 65px;
    background-color: #ebebeb;
 
   width: 400px;
-  height: 400px;
+  height: auto;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
@@ -455,15 +463,17 @@ padding: 30px 65px;
   border-radius: 8px;
   background-color: #ebebeb;
   width: 70px;
-  height: 70px;
+  height: 90px;
   cursor: pointer;
+
 }
 
 .selected-image{
-  background-color:#f02d34;
+  /* background-color:#f02d34; */
+  border: 2px solid #ec5b13;
 }
 .reviews{
-  color: #f02d34;
+  color: #ffc151;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -484,7 +494,7 @@ padding: 30px 65px;
   font-weight: 700 ;
   font-size: 26px;
   margin-top: 30px;
-  color:#f02d34;
+  color:#ec5b13;
 }
 .price .old-price, .product-price .old-price, .price .old-price{
   color: gray;
@@ -502,12 +512,13 @@ padding: 30px 65px;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
-  border: 1px solid #f02d34 ;
+  border: 1px solid #ec5b13 ;
+  border-radius: 15px;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   background-color: white;
-  color: #f02d34;
+  color: #ec5b13;
   cursor: pointer;
   width: 200px;
    transform: scale(1, 1);
@@ -518,9 +529,9 @@ padding: 30px 65px;
 }
 .buttons .buy-now{
   width: 200px;
-
+border-radius: 15px;
   padding: 10px 20px;
-  background-color: #f02d34;
+  background-color: #ec5b13;
   color: white;
   border: none;
   margin-top: 40px;
@@ -584,7 +595,7 @@ padding: 6px;
   width: 1000px;
 margin: auto;
 margin-top: 160px;
-  background-color: #dcdcdc;
+  background-color: #fff2dd;
   padding: 50px;
   border-radius: 15px;
   display: flex;
@@ -594,7 +605,7 @@ margin-top: 160px;
 }
 
 .success .icon {
-   color: green;
+   color: #e97a2c;
    font-size: 40px;
 }
 .success h2{
@@ -622,7 +633,7 @@ margin-top: 160px;
 }
 .success .description .email{
   margin-left: 5px;
-  color: #f02d34;
+  color: #ec5b13;
 }
 .product-max-qty{
   margin-top: 10px;

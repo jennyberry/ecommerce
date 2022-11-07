@@ -36,8 +36,8 @@ const FooterBanner = ({
         <img
           src={urlFor(image)}
           alt="headphones"
-          width={300}
-          height={400}
+          // width={300}
+          height={500}
           className="footer-banner-image"
         />
       </div>
